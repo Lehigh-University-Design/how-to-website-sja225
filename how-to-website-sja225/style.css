@@ -1,0 +1,20 @@
+.folding {
+    float: right;
+  }
+
+h1 {
+    font-family: 'Rampart One', cursive;
+  }
+
+  h2, h3, p, li {
+    font-family:'B612 Mono', monospace;
+  }
+
+  html {
+    background-color: #efe5e8;
+    color: #071812;
+}
+
+li{
+  line-height: 150%;
+}
