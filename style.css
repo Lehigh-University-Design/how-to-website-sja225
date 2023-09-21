@@ -4,17 +4,83 @@
 
 h1 {
     font-family: 'Rampart One', cursive;
+    text-shadow: 2px 2px 5px rgb(165, 134, 157);
+    font-size: 300%;
   }
 
-  h2, h3, p, li {
+  h2, h3, p, li, figcaption {
     font-family:'B612 Mono', monospace;
   }
 
+  figcaption {
+    font-size: 25%;
+    text-align: right;
+  }
+
+  figure{
+    max-width: 300px;
+    margin-left: 0px;
+  }
+
   html {
-    background-color: #efe5e8;
+    background-color: #5C8DAE;
     color: #071812;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+}
+
+.needed{
+  margin-top: 2em;
+}
+
+.paper{
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.fold{
+  margin-bottom: 1.5em;
 }
 
 li{
   line-height: 150%;
+}
+
+.fly{
+  text-align: left;
+   margin-top: 2em;
+}
+
+.fly2{
+  margin-bottom: 2em;
+}
+
+body {
+  max-width: 75rem;
+  padding-left: 1rem;
+  margin: auto;
+}
+
+.box {
+  width: 75rem;
+  background-color: #efe5e8;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width:75rem;
+}
+
+.fun{
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+hr {
+  height: 2px;
+  background-color: pink;
+  border-color: white;
+}
+
+.bottom{
+  text-align: center;
 }
