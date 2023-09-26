@@ -1,0 +1,111 @@
+html {
+  background-color: #5C8DAE;
+  background-image: url('pexels-pixabay-53594.jpg');
+  width:auto;
+  color: #071812;
+  padding-top: 3.5em;
+  padding-bottom:3.5em;
+}
+
+h1 {
+  font-family: 'Rampart One', cursive;
+  text-shadow: 2px 2px 5px #88a3de;
+  font-size: 300%;
+}
+
+.img1 {
+    float: right;
+  }
+
+  .box {
+    border:5px solid #071812;
+    border-radius: .75%;
+    width: 75rem;
+    background-color: #efe5e8;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 40px;
+    max-width:75rem;
+    box-shadow: 2px 3px 10px #071812; 
+  }
+  
+  body {
+    max-width: 75rem;
+    padding-left: 1rem;
+    margin: auto;
+  }
+
+  h2, h3, p, li, figcaption {
+    font-family:'B612 Mono', monospace;
+  }
+
+  figcaption {
+    font-size: 25%;
+    text-align: right;
+  }
+
+  figure{
+    max-width: 300px;
+    margin-left: 0px;
+  }
+
+.text1{
+  margin-top: 2em;
+}
+
+.text2{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.img2{
+  margin-bottom: 1.5em;
+  transition: transform .2s; /* Hover */
+}
+
+.img2:hover{
+  transform: scale(1.2);
+}
+
+li{
+  line-height: 150%;
+}
+
+.fly{
+  text-align: left;
+   margin-top: 2em;
+}
+
+.fly2{
+  margin-bottom: 2em;
+}
+
+hr {
+  height: 2px;
+  background-color: pink;
+  border-color: white;
+}
+
+.bottom{
+  text-align: center;
+}
+
+.portfolio{
+  font-size: .60em;
+  text-align: center;
+  margin-top: 1.7em;
+}
+
+a {
+  color: #071812;
+}
+
+a:visited {
+  color: #071812;
+}
+
+a:hover {
+  color: #3E72E2;
+}
