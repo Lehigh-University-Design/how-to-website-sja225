@@ -1,11 +1,40 @@
-.folding {
+html {
+  background-color: #5C8DAE;
+  background-image: url('pexels-pixabay-53594.jpg');
+  width:auto;
+  color: #071812;
+  padding-top: 3.5em;
+  padding-bottom:3.5em;
+}
+
+h1 {
+  font-family: 'Rampart One', cursive;
+  text-shadow: 2px 2px 5px #88a3de;
+  font-size: 300%;
+}
+
+.img1 {
     float: right;
   }
 
-h1 {
-    font-family: 'Rampart One', cursive;
-    text-shadow: 2px 2px 5px rgb(165, 134, 157);
-    font-size: 300%;
+  .box {
+    border:5px solid #071812;
+    border-radius: .75%;
+    width: 75rem;
+    background-color: #efe5e8;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 40px;
+    max-width:75rem;
+    box-shadow: 2px 3px 10px #071812; 
+  }
+  
+  body {
+    max-width: 75rem;
+    padding-left: 1rem;
+    margin: auto;
   }
 
   h2, h3, p, li, figcaption {
@@ -22,24 +51,22 @@ h1 {
     margin-left: 0px;
   }
 
-  html {
-    background-color: #5C8DAE;
-    color: #071812;
-    padding-top: 5rem;
-    padding-bottom:5rem;
-}
-
-.needed{
+.text1{
   margin-top: 2em;
 }
 
-.paper{
+.text2{
   margin-top: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
 }
 
-.fold{
+.img2{
   margin-bottom: 1.5em;
+  transition: transform .2s; /* Hover */
+}
+
+.img2:hover{
+  transform: scale(1.2);
 }
 
 li{
@@ -55,26 +82,6 @@ li{
   margin-bottom: 2em;
 }
 
-body {
-  max-width: 75rem;
-  padding-left: 1rem;
-  margin: auto;
-}
-
-.box {
-  width: 75rem;
-  background-color: #efe5e8;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width:75rem;
-}
-
-.fun{
-  margin-top: 1em;
-  margin-bottom: 1.5em;
-}
-
 hr {
   height: 2px;
   background-color: pink;
@@ -83,4 +90,22 @@ hr {
 
 .bottom{
   text-align: center;
+}
+
+.portfolio{
+  font-size: .60em;
+  text-align: center;
+  margin-top: 1.7em;
+}
+
+a {
+  color: #071812;
+}
+
+a:visited {
+  color: #071812;
+}
+
+a:hover {
+  color: #3E72E2;
 }
